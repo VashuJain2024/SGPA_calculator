@@ -3,8 +3,8 @@ void grade_point(int marks);
 int credit_points(int Cr, int marks);
 int main()
 {
-    int Physics, Chemistry, Mathematics_I, Electrical, Electronics, PPS, Mechanical, EVS, Soft_Skills, Physics_Lab, Chemistry_Lab, Electrical_Lab, Electronics_Lab, PPS_Lab, English_Lab, Graphics_Lab, Workshop_Lab;
-    int a = Physics = Chemistry, b = Mathematics_I, c = Electrical = Electronics, d = PPS = Mechanical, e = EVS = Soft_Skills, f = Physics_Lab = Chemistry_Lab, g = Electrical_Lab = Electronics_Lab, h = PPS_Lab = English_Lab, i = Graphics_Lab = Workshop_Lab, semester;
+    int Physics, Chemistry, Mathematics, Electrical, Electronics, PPS, Mechanical, EVS, Soft_Skills, Physics_Lab, Chemistry_Lab, Electrical_Lab, Electronics_Lab, PPS_Lab, English_Lab, Graphics_Lab, Workshop_Lab;
+    int a = Physics = Chemistry, b = Mathematics, c = Electrical = Electronics, d = PPS = Mechanical, e = EVS = Soft_Skills, f = Physics_Lab = Chemistry_Lab, g = Electrical_Lab = Electronics_Lab, h = PPS_Lab = English_Lab, i = Graphics_Lab = Workshop_Lab, semester;
     char cycle, P, C;
     int gp10 = 10, gp9 = 9, gp8 = 8, gp7 = 7, gp6 = 6, gp5 = 5, gp4 = 4, gp0 = 0;
     int Cr_a = 4, Cr_b = 4, Cr_c = 3, Cr_d = 3, Cr_e = 3, Cr_f = 1, Cr_g = 1, Cr_h = 1, Cr_i = 2;
@@ -19,7 +19,7 @@ int main()
         scanf("%d", &a);
         grade_point(a);
         cra = credit_points(Cr_a, a);
-        printf("2.Enter the marks of Enginnering Mathematics-I:");
+        printf("2.Enter the marks of Enginnering Mathematics:");
         scanf("%d", &b);
         grade_point(b);
         crb = credit_points(Cr_b, b);
@@ -63,7 +63,7 @@ int main()
         scanf("%d", &a);
         grade_point(a);
         cra = credit_points(Cr_a, a);
-        printf("2.Enter the marks of Enginnering Mathematics-I:");
+        printf("2.Enter the marks of Enginnering Mathematics:");
         scanf("%d", &b);
         grade_point(b);
         crb = credit_points(Cr_b, b);
